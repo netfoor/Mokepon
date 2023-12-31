@@ -1,4 +1,3 @@
-
 function random(minimumRange, maximumRange){
     return Math.floor(Math.random() * (maximumRange - minimumRange + 1) + minimumRange)
 }
