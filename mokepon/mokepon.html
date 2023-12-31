@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokepon</title>
+    <script src="./js/codemokepon.js"></script>
+</head>
+<body>
+    <h1>MOKEPON! 🔥💧🌵</h1>
+    <section id="select-pet">
+        <h2>Choose which pet you want to play whith</h2>
+        
+        <input type="radio" name="pet" id="hipodoge">
+        <label for="hipodoge">Hipodoge</label>
+
+        <input type="radio" name="pet" id="capipepo">
+        <label for="capipepo">Capipepo</label>
+
+        <input type="radio" name="pet" id="ratiguella">
+        <label for="ratiguella">Ratiguella</label>
+
+        <input type="radio" name="pet" id="langostelvis">
+        <label for="langostelvis">Langostelvis</label>
+
+        <input type="radio" name="pet" id="tucapalma">
+        <label for="tucapalma">Tucapalma</label>
+
+        <input type="radio" name="pet" id="pydos">
+        <label for="pydos">Pydos</label>
+
+
+        <button id="button-pet">Choose</button>
+    </section>
+    <section id="select-attack">
+        <h2>Choose you attack</h2>
+        <p> <span id="player-pet"></span>, it has <span id="lives-player-pet">3</span> lives</p>
+        <p> <span id="enemy-pet"></span>, the enemy's pet has <span id="lives-enemy-pet">3</span> lives</p>
+        <p>
+            <button id="button-fire">Fire 🔥</button>
+            <button id="button-water">Water 💧</button>
+            <button id="button-earth">Earth 🌵</button>
+        </p>
+    </section>
+    
+    <section id="menssages">
+        <p>Your pet attacked whit fire, enemy's pet attacked whit earth</p>
+    </section>
+
+    <section id="Restart">
+        <button id="button-restart">Restart</button>
+    </section>
+    
+</body>
+</html>
